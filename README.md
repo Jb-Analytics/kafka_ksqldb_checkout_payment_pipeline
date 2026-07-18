@@ -1,5 +1,7 @@
 # Real-Time Checkout and Payment Correlation with ksqlDB
 
+> Built as a guided exercise in the GrowDataSkills Data Engineering bootcamp; documented, diagrammed, and pushed to GitHub independently.
+
 ## Overview
 
 This project implements a real-time e-commerce processing pipeline using
@@ -190,6 +192,16 @@ SHOW QUERIES;
 DESCRIBE checkout_events_raw EXTENDED;
 DESCRIBE payment_events_raw EXTENDED;
 ```
+
+## Pipeline in Action
+
+Confirmed streams and tables created by the persistent queries:
+
+![Streams and tables](screenshots/streams_and_tables.png)
+
+Data lineage as visualized in the Confluent Cloud ksqlDB Flow view:
+
+![ksqlDB flow graph](screenshots/ksqldb_flow_graph.png)
 
 ### 8. Stop processing
 
