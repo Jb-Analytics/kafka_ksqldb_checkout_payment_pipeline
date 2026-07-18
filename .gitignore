@@ -1,0 +1,6 @@
+client.properties
+api-key*.txt
+*.env
+.venv/
+__pycache__/
+*.pyc
